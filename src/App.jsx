@@ -278,36 +278,8 @@ export default function Ronakography() {
       {/* ABOUT */}
       <section id="about" style={{ padding: "7rem 2rem", background: "#0d0d0d" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "center" }}>
-          <FadeIn direction="left">
-            <div style={{ position: "relative" }}>
-              {/* Profile image placeholder */}
-              <div style={{
-                width: "100%", maxWidth: 420, aspectRatio: "3/4",
-                background: "linear-gradient(135deg,#1a1500,#2a2000)",
-                borderRadius: 8, border: `1px solid rgba(201,168,76,0.2)`,
-                display: "flex", alignItems: "center", justifyContent: "center",
-                position: "relative", overflow: "hidden"
-              }}>
-                <div style={{ textAlign: "center", color: "#555" }}>
-                  <Camera size={48} />
-                  <p style={{ fontSize: "0.85rem", marginTop: "0.5rem" }}>Profile Photo</p>
-                </div>
-                <div style={{
-                  position: "absolute", bottom: 0, left: 0, right: 0,
-                  background: "linear-gradient(to top, rgba(0,0,0,0.8), transparent)",
-                  padding: "2rem 1.5rem"
-                }}>
-                  <div style={{ color: GOLD, fontFamily: "'Playfair Display',serif", fontSize: "1.2rem" }}>Ronak Motirai</div>
-                  <div style={{ color: "#aaa", fontSize: "0.8rem" }}>Founder & Lead Photographer</div>
-                </div>
-                {/* Gold corner accents */}
-                <div style={{ position: "absolute", top: -1, left: -1, width: 30, height: 30, borderTop: `3px solid ${GOLD}`, borderLeft: `3px solid ${GOLD}` }} />
-                <div style={{ position: "absolute", bottom: -1, right: -1, width: 30, height: 30, borderBottom: `3px solid ${GOLD}`, borderRight: `3px solid ${GOLD}` }} />
-              </div>
-            </div>
-          </FadeIn>
-
-          <FadeIn direction="right">
+        
+          <FadeIn>
             <div>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>About</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700, marginBottom: "1.5rem", lineHeight: 1.2 }}>
