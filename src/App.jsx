@@ -562,7 +562,7 @@ export default function Ronakography() {
                     color: "#fff", textDecoration: "none",
                     padding: "0.75rem 1.5rem", borderRadius: 4, fontWeight: 600, fontSize: "0.9rem"
                   }}>
-                    <Instagram size={18} /> Instagram
+                  
                   </a>
                 </div>
               </div>
@@ -627,7 +627,7 @@ export default function Ronakography() {
                 Let's Create Something Extraordinary Together.
               </p>
               <div style={{ display: "flex", gap: "0.75rem", marginTop: "1.5rem" }}>
-                {[<Instagram size={18} />, <Mail size={18} />, <Phone size={18} />].map((icon, i) => (
+                {[<Mail size={18} />, <Phone size={18} />].map((icon, i) => (
                   <div key={i} style={{
                     width: 38, height: 38, border: `1px solid rgba(201,168,76,0.25)`,
                     borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center",
