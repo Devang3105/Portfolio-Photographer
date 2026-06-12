@@ -226,8 +226,8 @@ export default function Ronakography() {
               fontWeight: 900, lineHeight: 1.05, marginBottom: "1.5rem",
               opacity: 0, animation: "fadeUp 0.8s ease 0.5s forwards"
             }}>
-              Capturing Stories<br />
-              <span style={{ color: GOLD }}>Beyond Frames</span>
+              
+              <span style={{ color: GOLD }}>Capturing Stories<br />Beyond Frames</span>
             </h1>
             <p style={{
               fontSize: "1.05rem", color: "#aaa", lineHeight: 1.8, maxWidth: 580,
@@ -311,7 +311,7 @@ export default function Ronakography() {
             <div>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>About</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700, marginBottom: "1.5rem", lineHeight: 1.2 }}>
-                About <span style={{ color: GOLD }}>Ronakography</span>
+                <span style={{ color: GOLD }}>About Ronakography</span>
               </h2>
               <p style={{ color: "#bbb", lineHeight: 1.9, marginBottom: "1rem", fontWeight: 300 }}>
                 Hi, I'm Ronak Motirai, founder of Ronakography. My photography journey began with a passion for storytelling and a camera in hand.
@@ -339,7 +339,7 @@ export default function Ronakography() {
             <div style={{ textAlign: "center", marginBottom: "4rem" }}>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>What I Do</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700 }}>
-                Photography <span style={{ color: GOLD }}>Services</span>
+                <span style={{ color: GOLD }}>Photography Services</span>
               </h2>
             </div>
           </FadeIn>
@@ -360,7 +360,7 @@ export default function Ronakography() {
             <div style={{ textAlign: "center", marginBottom: "3rem" }}>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>My Work</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700 }}>
-                Featured <span style={{ color: GOLD }}>Portfolio</span>
+                <span style={{ color: GOLD }}>Featured Portfolio</span>
               </h2>
             </div>
             <div style={{ display: "flex", justifyContent: "center", gap: "0.75rem", flexWrap: "wrap", marginBottom: "3rem" }}>
@@ -428,7 +428,7 @@ export default function Ronakography() {
             }}>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>Our Vision</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(1.6rem,3.5vw,2.5rem)", fontWeight: 700, maxWidth: 700, margin: "0 auto", lineHeight: 1.3 }}>
-                "To create impactful visuals that <span style={{ color: GOLD }}>inspire, connect, and leave a lasting impression.</span>"
+                 "<span style={{ color: GOLD }}>To create impactful visuals that inspire, connect, and leave a lasting impression.</span>"
               </h2>
             </div>
           </FadeIn>
@@ -436,7 +436,7 @@ export default function Ronakography() {
           <FadeIn>
             <div style={{ textAlign: "center", marginBottom: "3rem" }}>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700 }}>
-                Why Choose <span style={{ color: GOLD }}>Ronakography?</span>
+               <span style={{ color: GOLD }}>Why Choose Ronakography?</span>
               </h2>
             </div>
           </FadeIn>
@@ -476,7 +476,7 @@ export default function Ronakography() {
             <div style={{ textAlign: "center", marginBottom: "4rem" }}>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>Client Stories</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700 }}>
-                What Clients <span style={{ color: GOLD }}>Say</span>
+                <span style={{ color: GOLD }}>What Clients Say</span>
               </h2>
             </div>
           </FadeIn>
@@ -516,7 +516,7 @@ export default function Ronakography() {
             <div style={{ textAlign: "center", marginBottom: "4rem" }}>
               <div style={{ color: GOLD, fontSize: "0.8rem", letterSpacing: "0.2em", fontWeight: 600, marginBottom: "1rem", textTransform: "uppercase" }}>Get In Touch</div>
               <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 700 }}>
-                Let's Create Something <span style={{ color: GOLD }}>Extraordinary</span>
+                <span style={{ color: GOLD }}>Let's Create Something Extraordinary</span>
               </h2>
             </div>
           </FadeIn>
@@ -556,7 +556,7 @@ export default function Ronakography() {
                   }}>
                     <Mail size={18} /> Email Inquiry
                   </a>
-                  <a href="https://instagram.com/ronakography" style={{
+                  <a href="https://instagram.com/ronakk_motirai" style={{
                     display: "flex", alignItems: "center", gap: "0.6rem",
                     background: "linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)",
                     color: "#fff", textDecoration: "none",
