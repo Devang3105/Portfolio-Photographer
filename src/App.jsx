@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Camera, Menu, X, Star, ChevronDown, Instagram, Mail, Phone, MapPin, MessageCircle, ArrowRight, Award, Clock, Heart, Zap, Users, Eye, Briefcase, Image, ShoppingBag, Smartphone, Play, CheckCircle } from "lucide-react";
+import { Camera, Menu, X, Star, ChevronDown, Mail, Phone, MapPin, MessageCircle, ArrowRight, Award, Clock, Heart, Zap, Users, Eye, Briefcase, Image, ShoppingBag, Smartphone, Play, CheckCircle } from "lucide-react";
 
 const GOLD = "#C9A84C";
 const GOLD_LIGHT = "#E8C97A";
